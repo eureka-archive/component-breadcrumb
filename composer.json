@@ -1,0 +1,28 @@
+{
+  "name": "eureka/component-breadcrumb",
+  "description": "PHP breadcrumb library.",
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "email": "",
+      "role": "Developer"
+    }
+
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Component\\Breadcrumb": "./"
+    }
+  },
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/velkuns/component-breadcrumb"
+    }
+  ]
+}
