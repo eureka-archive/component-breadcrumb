@@ -13,27 +13,26 @@ namespace Eureka\Component\Breadcrumb;
  * Class to set breadcrumb item.
  *
  * @author  Romain Cottard
- * @version 1.0.0
  */
 class BreadcrumbItem
 {
     /**
-     * @var string $name
+     * @var string $name Item name
      */
     private $name = '';
 
     /**
-     * @var string $icon
+     * @var string $icon Item icon
      */
     private $icon = '';
 
     /**
-     * @var string $uri
+     * @var string $uri Item Uri
      */
-    private $uri  = '';
+    private $uri = '';
 
     /**
-     * @var bool $isActive
+     * @var bool $isActive Item is active ?
      */
     private $isActive = false;
 
@@ -128,6 +127,7 @@ class BreadcrumbItem
 
     /**
      * Set is Active
+     *
      * @param  bool $isActive
      * @return $this
      */

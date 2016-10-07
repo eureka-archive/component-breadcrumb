@@ -13,17 +13,16 @@ namespace Eureka\Component\Breadcrumb;
  * Breadcrumb class
  *
  * @author  Romain Cottard
- * @version 1.0.0
  */
 class Breadcrumb implements \Iterator, \Countable
 {
     /**
-     * @var int $index
+     * @var int $index Current index key.
      */
     private $index = 0;
 
     /**
-     * @var int $count
+     * @var int $count Number of element in breadcrumb
      */
     private $count = 0;
 
@@ -99,6 +98,7 @@ class Breadcrumb implements \Iterator, \Countable
 
     /**
      * Count countable method.
+     *
      * @return int
      */
     public function count()
