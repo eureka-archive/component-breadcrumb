@@ -47,6 +47,26 @@ class Breadcrumb implements \Iterator, \Countable
     }
 
     /**
+     * Check if is the last element of breadcrumb.
+     *
+     * @return bool
+     */
+    public function isLast()
+    {
+        return ($this->index === ($this->count - 1));
+    }
+
+    /**
+     * Check if is the first element of breadcrumb.
+     *
+     * @return bool
+     */
+    public function isFirst()
+    {
+        return ($this->index === 0);
+    }
+
+    /**
      * Current iterator method.
      *
      * @return BreadcrumbItem
